@@ -1,0 +1,21 @@
+Docker images
+
+Docker ps
+
+Docker ps -a
+
+docker build -t demo-node:v1 .
+
+docker run -p 5656:8080 demo-node:v1
+
+docker stop <image_id> 
+
+Delete-images: docker rmi -f <image_id> 
+
+docker build -t minhducit98/cheers2019 .
+
+docker run -it --rm minhducit98/cheers2019
+
+docker login
+
+docker push minhducit98/cheers2019
